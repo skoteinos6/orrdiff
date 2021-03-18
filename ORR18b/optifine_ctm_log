@@ -1,0 +1,90 @@
+
+OPTIFINE TESTS CTM
+==================
+Ovo's Rustic Redemption 1.8b
+
+Forge 36.0.48
+Minecraft 1.16.5
+MCP 20210115.111550
+OptiFine_1.16.5_HD_U_G7
+
+
+WOOD
+===================
+acacia_planks			OK	2021.03		Skoteinos
+birch_log			NOK	2021.03		Skoteinos	tops ok, but sides?
+birch_planks			OK	2021.03		Skoteinos
+crimson_planks			OK	2021.03		Skoteinos
+dark_oak_leaves			OK	2021.03		Skoteinos
+dark_oak_planks			OK	2021.03		Skoteinos
+jungle_planks			OK	2021.03		Skoteinos
+oak_leaves			OK	2021.03		Skoteinos
+oak_log				NOK	2021.03		Skoteinos	tops ok, but sides?
+spruce_log			NOK	2021.03		Skoteinos	tops ok, but sides?
+spruce_planks			OK	2021.03		Skoteinos
+oak_planks			OK	2021.03		Skoteinos
+
+
+WOOL
+===================
+black_wool			Partly ok?
+blue_wool			Partly ok?
+cyan_wool			Partly ok?
+brown_wool			Partly ok?
+gray_wool			Partly ok?
+green_wool			Partly ok?
+light_blue_wool			Partly ok?
+light_gray_wool			Partly ok?
+lime_wool			Partly ok?
+magenta_wool			Partly ok?
+orange_wool			Partly ok?
+pink_wool			Partly ok?
+purple_wool			Partly ok?
+red_wool				Partly ok?
+white_wool			Partly ok?
+yellow_wool			Partly ok?
+
+
+PLANTS AND FLOWERS
+====================
+dandelion			FIXED	2021.03		Skoteinos	fixed .properties
+dead_bush			OK	2021.03		Skoteinos
+fern				OK	2021.03		Skoteinos
+grass				OK	2021.03		Skoteinos
+lily_pad				OK	2021.03		Skoteinos
+melon				OK	2021.03		Skoteinos
+poppy				OK	2021.03		Skoteinos
+vine				NOK	2021.03		Skoteinos				
+sugar_cane			NOK?
+mushroom_brown			FIXED	2021.03		Skoteinos	mv brown_mushroom
+mushroom_red			FIXED	2021.03		Skoteinos	mv red_mushroom
+
+
+OTHER
+=====================
+bricks				FAIL	2021.03		Skoteinos	Have to be checked.
+
+bookshelf			OK	2021.03		Skoteinos
+
+crafting_table:			OK	2021.03		Skoteinos
+  - crafting_table_front
+  - crafting_table_top
+
+chiseled_sandstone		OK	2021.03		Skoteinos
+coal_ore				OK	2021.03		Skoteinos
+cobblestone			OK	2021.03		Skoteinos
+cracked_stone_bricks		OK	2021.03		Skoteinos
+
+dirt				OK	2021.03		Skoteinos
+
+farmlands			OK	2021.03		Skoteinos
+
+glass				OK	2021.03		Skoteinos
+
+grass_block_side			Not checked
+grass_block_top			OK	2021.03		Skoteinos
+
+iron_bars			OK	2021.03		Skoteinos
+
+mossy_cobblestone		OK	2021.03		Skoteinos
+mossy_stone_bricks		OK	2021.03		Skoteinos

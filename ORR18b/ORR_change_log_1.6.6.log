@@ -1,0 +1,958 @@
+1.8beta (JavaEdition) 1.6.6
+
+	- Small fixes and removed legacy items		UP	[Skoteinos]
+
+
+DONE rm -r assets/minecraft/textures/optifine			superseded by assets/minecraft/optifine/ctm
+DONE rm -r assets/minecraft/optifine/ctm/grass_top			superseded by assets/minecraft/optifine/ctm/grass_block_top
+DONE rm -r assets/minecraft/optifine/ctm/sandstone_carved		superseded by assets/minecraft/optifine/ctm/chiseled_sandstone
+DONE rm -r assets/minecraft/optifine/ctm/coal			superseded by assets/minecraft/optifine/ctm/coal_ore
+DONE rm -r assets/minecraft/optifine/ctm/wood_spruce		superseded by assets/minecraft/optifine/ctm/spruce_planks
+DONE rm -r assets/minecraft/optifine/ctm/silver_wool		superseded by assets/minecraft/optifine/ctm/light_gray_wool
+DONE rm -r assets/minecraft/optifine/ctm/workbench_sides		superseded by assets/minecraft/optifine/ctm/crafting_table_front
+DONE rm -r assets/minecraft/optifine/ctm/stonebrick_mossy		superseded by assets/minecraft/optifine/ctm/mossy_stone_bricks
+DONE rm -r assets/minecraft/optifine/ctm/flower_rose		superseded by assets/minecraft/optifine/ctm/poppy
+DONE rm -r assets/minecraft/optifine/ctm/stonebrick_cracked	superseded by assets/minecraft/optifine/ctm/cracked_stone_bricks
+DONE rm -r assets/minecraft/optifine/ctm/tallgrass		superseded by assets/minecraft/optifine/ctm/grass
+FIX  mv assets/minecraft/optifine/ctm/tallgrass/grass.properties assets/minecraft/optifine/ctm/grass/
+DONE rm -r assets/minecraft/optifine/ctm/bricks			superseded by /assets/minecraft/optifine/ctm/brick
+mv assets/minecraft/optifine/ctm/grass_side/grass_side.properties assets/minecraft/optifine/ctm/grass_block_side/
+DONE rm -r assets/minecraft/optifine/ctm/grass_side		superseded by assets/minecraft/optifine/ctm/grass_block_side
+DONE rm -r assets/minecraft/optifine/ctm/wood_big_oak		superseded by assets/minecraft/optifine/ctm/dark_oak_planks
+DONE mv assets/minecraft/optifine/ctm/wood_birch assets/minecraft/optifine/ctm/birch_planks
+DONE rm -r assets/minecraft/optifine/ctm/reed			superseded by assets/minecraft/optifine/ctm/sugar_cane
+DONE mkdir assets/minecraft/optifine/ctm/lily_pad
+DONE mv assets/minecraft/optifine/ctm/waterlily/lily_pad.properties assets/minecraft/optifine/ctm/lily_pad
+DONE rm -r assets/minecraft/optifine/ctm/waterlily		superseded by /assets/minecraft/optifine/ctm/lily_pad
+DONE mv assets/minecraft/optifine/ctm/lil_pad/* assets/minecraft/optifine/ctm/lily_pad/
+
+DONE rm -r assets/minecraft/optifine/ctm/tree_side			superseded by assets/minecraft/optifine/ctm/oak_log
+
+FIX mv assets/minecraft/optifine/ctm/leaves_big_oak/dark_oak_leaves.properties
+mv assets/minecraft/optifine/ctm/leaves_oak/oak_leaves.properties assets/minecraft/optifine/ctm/oak_leaves/
+
+DONE rm -r assets/minecraft/optifine/ctm/leaves_big_oak/		superseded by assets/minecraft/optifine/ctm/dark_oak_leaves/
+
+DONE rm -r assets/minecraft/optifine/ctm/leaves_oak		superseded by assets/minecraft/optifine/ctm/oak_leaves/
+DONE rm -r assets/minecraft/optifine/ctm/leaves_big_oak		superseded by assets/minecraft/optifine/ctm/dark_oak_leaves
+DONE rm -r assets/minecraft/optifine/ctm/tree_spruce		superseded by assets/minecraft/optifine/ctm/spruce_log
+DONE mv assets/minecraft/optifine/ctm/flower/dandelion.properties assets/minecraft/optifine/ctm/dandelion/
+DONE rm -r assets/minecraft/optifine/ctm/flower			superseded by assets/minecraft/optifine/ctm/dandelion
+DONE rm -r assets/minecraft/optifine/ctm/wood_jungle		superseded by assets/minecraft/optifine/ctm/jungle_planks
+DONE rm -r assets/minecraft/optifine/ctm/deadbush 			superseded by assets/minecraft/optifine/ctm/dead_bush
+DONE rm -r assets/minecraft/optifine/ctm/workbench_top		superseded by assets/minecraft/optifine/ctm/crafting_table_top
+DONE rm -r assets/minecraft/optifine/ctm/stoneslab_top		superseded by assets/minecraft/optifine/ctm/smooth_stone
+DONE rm -r assets/minecraft/optifine/ctm/tree_birch		superseded by assets/assets/minecraft/optifine/ctm/birch_log
+DONE rm -r assets/minecraft/optifine/ctm/wood			superseded by assets/assets/minecraft/optifine/ctm/oak_planks
+DONE rm -r assets/minecraft/optifine/ctm/cobblestone_mossy		superseded by assets/minecraft/optifine/ctm/mossy_cobblestone
+DONE rm -r assets/minecraft/optifine/ctm/wood_acacia		superseded by assets/minecraft/optifine/ctm/acacia_planks
+
+FIX rm assets/minecraft/textures/item/clock.png.mcmeta kopio
+
+DONE rm -r assets/minecraft/textures/block/stone_slab_side.png		superseded by assets/minecraft/textures/block/smooth_stone_slab_side.png
+
+CHECK
+assets/minecraft/textures/item/glass_bottle.png
+assets/minecraft/textures/item/potion.png
+
+assets/minecraft/textures/entity/villager/farmer.png
+assets/minecraft/textures/entity/villager/farmer parts.png
+
+assets/minecraft/textures/entity/villager/librarian.png
+assets/minecraft/textures/entity/villager/librarian parts.png
+
+assets/minecraft/textures/entity/villager/smith.png
+assets/minecraft/textures/entity/villager/smith parts.png
+
+assets/minecraft/textures/entity/villager/butcher parts.png
+assets/minecraft/textures/entity/villager/butcher.png
+
+rm assets/minecraft/textures/entity/villager/villager kopio.png
+
+CHECK
+assets/minecraft/textures/entity/.horse NEEDS UPDATING/armor/horse_armor_diamond.png
+assets/minecraft/textures/entity/.horse NEEDS UPDATING/armor/horse_armor_gold.png
+assets/minecraft/textures/entity/.horse NEEDS UPDATING/armor/horse_armor_leather.png
+assets/minecraft/textures/entity/.horse NEEDS UPDATING/armor/horse_armor_iron.png
+
+DONE rm assets/minecraft/textures/entity/endercrystal/endercrystal.png		superseded by assets/minecraft/textures/entity/end_crystal/end_crystal.png
+DONE rm assets/minecraft/textures/entity/endercrystal/endercrystal_beam.png		superseded by assets/minecraft/textures/entity/end_crystal/end_crystal_beam.png
+
+DONE rm assets/minecraft/textures/entity/zombie_villager/zombie_smith.png		superseded by assets/minecraft/textures/entity/zombie_villager/smith parts.png
+
+DONE rm assets/minecraft/textures/entity/zombie_villager/zombie_librarian.png	superseded by assets/minecraft/textures/entity/zombie_villager/librarian parts.png
+
+DONE rm assets/minecraft/textures/entity/zombie_villager/zombie_priest.png		superseded by assets/minecraft/textures/entity/zombie_villager/cleric parts.png
+
+DONE rm assets/minecraft/textures/entity/zombie_villager/zombie_farmer.png		superseded by assets/minecraft/textures/entity/zombie_villager/farmer parts.png
+
+
+UPDATE:
+86437 bytes each:
+assets/minecraft/textures/entity/iron_golem/iron_golem_crackiness_medium.png
+assets/minecraft/textures/entity/iron_golem/iron_golem_crackiness_low.png
+assets/minecraft/textures/entity/iron_golem/iron_golem_crackiness_high.png
+assets/minecraft/textures/entity/iron_golem/iron_golem.png
+
+
+
+Change log Ovos Rustic Redemption 1.8alpha - MC 1.16.X
+Added & Updated Textures (++ = Added | UP = Updated)
+
+	- Merges & fixes to optifine CTM files
+	- fixed names
+	- etc
+
+
+textures/entity/
+	- iron_golem.png			UP	[Skoteinos] mv iron_golem.png /textures/entity/iron_golem/	
+						NOTE; "iron_golem_crackiness_X" textures need updating 	
+
+
+
+Added TeManas textures
+ORR_TeManasAddon.mcpack//assets/minecraft/textures/block:
+
+8853	black_terracotta.png			[TeMana]
+7147	blackstone.png				[TeMana]
+7564	blackstone_bricks.png			[TeMana]
+7291	blackstone_top.png			[TeMana]
+14185	crimson_door.png				[TeMana]
+8017	crimson_door_bottom.png			[TeMana]
+7615	crimson_door_top.png			[TeMana]
+8730	crimson_planks.png			[TeMana]
+42281	crimson_stem.png				[TeMana]
+8752	crimson_stem_top.png			[TeMana]
+11371	nether_gold_ore.png			[TeMana]
+6801	quartz_bricks.png			[TeMana]
+7314	stripped_crimson_stem.png			[TeMana]
+9575	stripped_crimson_stem_top.png		[TeMana]
+6965	stripped_warped_stem.png			[TeMana]
+9601	stripped_warped_stem_top.png		[TeMana]
+21199	warped_door.png				[TeMana]
+11023	warped_door_bottom.png			[TeMana]
+10566	warped_door_top.png			[TeMana]
+7300	warped_planks.png			[TeMana]
+120418	warped_stem.png				[TeMana]
+9640	warped_stem_top.png			[TeMana]
+
+
+Added Finnollie/Finnigan Contributions / Fixes to CTM etc.
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/acacia_planks:
+	86	acacia_planks.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/birch_log:
+	65	birch_log.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/birch_planks:
+	85	birch_planks.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/black_wool:
+	46	black_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/blue_wool:
+	45	blue_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/bookshelf:
+	65	bookshelf.properties
+	72	bookshelf_top.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/bricks:
+	48	bricks.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/brown_wool:
+	46	brown_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/chiseled_sandstone:
+	90	chiseled_sandstone.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/coal_ore:
+	56	coal_ore.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/cobblestone:
+	49	cobblestone.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/cracked_stone_bricks:
+	60	cracked_stone_bricks.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/crafting_table_front:
+	72	crafting_table_front.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/crafting_table_top:
+	68	crafting_table_top.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/crimson_planks:
+	54	oak_planks.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/cyan_wool:
+	45	cyan_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/dandelion:
+	74	dandelion.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/dark_oak_leaves:
+	75	dark_oak_leaves.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/dark_oak_planks:
+	88	dark_oak_planks.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/dead_bush:
+	100	dead_bush.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/dirt:
+	44	dirt.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/farmlands:
+	89	farmland.properties
+	99	farmland_moist.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/fern:
+	69	fern.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/glass:
+	43	glass.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/grass:
+	98	grass.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/grass_block_side:
+	66	grass_side.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/grass_block_top:
+	96	grass_block_top.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/gray_wool:
+	45	gray_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/green_wool:
+	46	green_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/iron_bars:
+	49	iron_bars.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/jungle_planks:
+	86	jungle_planks.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/light_blue_wool:
+	51	light_blue_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/light_gray_wool:
+	51 	light_gray_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/lil_pad:
+	64	lily_pad.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/lime_wool:
+	45	lime_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/magenta_wool:
+	48	magenta_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/melon:
+	62	melon_side.properties
+	64	melon_top.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/mossy_cobblestone:
+	67	mossy_cobblestone.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/mossy_stone_bricks:
+	60	mossy_stone_bricks.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/mushroom_brown:
+	80	brown_mushroom.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/mushroom_red:
+	76	red_mushroom.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/oak_leaves:
+	74	oak_leaves.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/oak_log:
+	48	oak_log.properties
+	48	oak_log_top.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/oak_planks:
+	50	oak_planks.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/orange_wool:
+	47	orange_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/pink_wool:
+	45	pink_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/poppy:
+	101	poppy.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/purple_wool:
+	47	purple_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/quartz_pillar:
+	66	quartz_pillar.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/red_sand:
+	78	red_sand.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/red_wool:
+	44	red_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/sand:
+	74	sand.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/smooth_stone:
+	80	smooth_stone_slab_top.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/smooth_stone_slab_side:
+	65	smooth_stone_slab_side.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/spruce_log:
+	51	spruce_log.properties
+	51	spruce_log_top.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/spruce_planks:
+	86	spruce_planks.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/stone:
+	75	stone.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/sugar_cane:
+	76	sugar_cane.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/tnt:
+	60	tnt_sides.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/vine:
+	43	vine.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/warped_planks:
+	53	warped_planks.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/white_wool:
+	46	white_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/ctm/yellow_wool:
+	47	yellow_wool.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/mob:
+	616	chicken.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/mob/cat:
+	35903	ocelot2.png
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/mob/cow:
+	49665	mooshroom2.png
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/mob/creeper:
+	693	creeper.properties
+
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/mob/enderman:
+	655	enderman.properties
+	362	enderman_eyes.properties
+	3186	enderman_eyes2.png
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/mob/skeleton:
+	691	skeleton.properties
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/mob/slime:
+	10256	slime2.png
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/mob/spider:
+	677	spider.properties
+
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/mob/villager:
+	56773	priest2.png
+
+ORR_FinollieOvoContributions//assets/minecraft/optifine/mob/zombie:
+	690	zombie.properties
+
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/block:
+	8777	ancient_debris_side.png
+	8061	ancient_debris_top.png
+	2657	bamboo_stage0.png
+	6853	bamboo_stalk.png
+	3598	black_shulker_box.png
+	3002	blackstone.png
+	3002	blackstone_top.png
+-	4292	blue_ice.png
+	3641	blue_shulker_box.png
+	3613	brown_shulker_box.png
+	220020	campfire_fire.png
+	44	campfire_fire.png.mcmeta
+	5313	campfire_log.png
+	17998	campfire_log_lit.png
+	82	campfire_log_lit.png.mcmeta
+	885	chain.png
+	3652	cracked_polished_blackstone_bricks.png
+	3641	cyan_shulker_box.png
+	9025	gilded_blackstone.png
+	3641	gray_shulker_box.png
+	3641	green_shulker_box.png
+	3641	light_blue_shulker_box.png
+	3641	light_gray_shulker_box.png
+	3641	lime_shulker_box.png
+	8546	magenta_shulker_box.png
+	6541	netherite_block.png
+	3641	orange_shulker_box.png
+	3641	pink_shulker_box.png
+	3467	polished_blackstone.png
+	3722	polished_blackstone_bricks.png
+	3641	purple_shulker_box.png
+	7021	quartz_bricks.png
+	3641	red_shulker_box.png
+	8546	shulker_box.png
+	5284	soul_lantern.png
+	43	soul_lantern.png.mcmeta
+	20829	soul_torch.png
+	22	soul_torch.png.mcmeta
+	3641	white_shulker_box.png
+	3641	yellow_shulker_box.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/entity:
+	51732	wandering_trader.png
+
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/entity/cat:
+	8993	all_black.png
+	20976	british_shorthair.png
+	21140	white.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/entity/horse:
+	224	armor
+	47443	donkey.png
+	74704	horse_black.png
+	111444	horse_brown.png
+	131494	horse_chestnut.png
+	115536	horse_creamy.png
+	81376	horse_darkbrown.png
+	92010	horse_gray.png
+	5167	horse_markings_blackdots.png
+	226	horse_markings_white.png
+	1311	horse_markings_whitedots.png
+	1436	horse_markings_whitefield.png
+	28654	horse_skeleton.png
+	74195	horse_white.png
+	35163	horse_zombie.png
+	34136	mule.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/entity/horse/armor:
+	8184	horse_armor_diamond.png
+	7971	horse_armor_gold.png
+	6793	horse_armor_iron.png
+	6257	horse_armor_leather.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/entity/piglin:
+	80142	zombified_piglin.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/entity/villager:
+	45883	butcher parts.png
+	56773	cleric parts.png
+	36620	farmer parts.png
+	35767	librarian parts.png
+	49132	smith parts.png
+	34867	villager.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/entity/villager/profession:
+	11631	armorer.png
+	13654	butcher.png
+	53	butcher.png.mcmeta
+	31462	cleric.png
+	22772	shepherd.png
+	50	shepherd.png.mcmeta
+	11754	toolsmith.png
+	11716	weaponsmith.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/entity/villager/profession_level:
+	1551	diamond.png
+	1534	emerald.png
+	1701	gold.png
+	1735	iron.png
+	2040	stone.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/entity/villager/type:
+	20805	desert.png
+	50	desert.png.mcmeta
+	20731	jungle.png
+	21800	plains.png
+	22121	savanna.png
+	20344	snow.png
+	50	snow.png.mcmeta
+	19382	swamp.png
+	21036	taiga.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/entity/zombie_villager:
+	25575	cleric parts.png
+	16901	farmer parts.png
+	15945	librarian parts.png
+	41229	smith parts.png
+	42525	zombie_villager.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/entity/zombie_villager/profession:
+	5988	armorer.png
+	8862	butcher.png
+	53	butcher.png.mcmeta
+	12449	cleric.png
+	22772	shepherd.png
+	50	shepherd.png.mcmeta
+	6239	toolsmith.png
+	6063	weaponsmith.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/entity/zombie_villager/profession_level:
+	1551	diamond.png
+	1534	emerald.png
+	1701	gold.png
+	1735	iron.png
+	2040	stone.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/entity/zombie_villager/type:
+	25353	desert.png
+	12741	jungle.png
+	20309	plains.png
+	20781	savanna.png
+	24945	snow.png
+	13966	swamp.png
+	11962	taiga.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/gui/container:
+	565874	brewing_stand.png
+
+ORR_FinollieOvoContributions//assets/minecraft/textures/item:
+	3805	bamboo.png
+	5795	campfire.png
+	1225	chain.png
+	20099	clock.png
+	21	clock.png.mcmeta
+	7549	clock_00.png
+	7586	clock_01.png
+	7596	clock_02.png
+	7596	clock_03.png
+	7615	clock_04.png
+	7650	clock_05.png
+	7650	clock_06.png
+	7621	clock_07.png
+	7581	clock_08.png
+	7609	clock_09.png
+	7630	clock_10.png
+	7618	clock_11.png
+	7617	clock_12.png
+	7617	clock_13.png
+	7590	clock_14.png
+	7571	clock_15.png
+	7562	clock_16.png
+	7578	clock_17.png
+	7600	clock_18.png
+	7595	clock_19.png
+	7613	clock_20.png
+	7622	clock_21.png
+	7618	clock_22.png
+	7616	clock_23.png
+	7584	clock_24.png
+	7615	clock_25.png
+	7645	clock_26.png
+	7623	clock_27.png
+	7643	clock_28.png
+	7593	clock_29.png
+	7589	clock_30.png
+	7598	clock_31.png
+	7549	clock_32.png
+	7586	clock_33.png
+	7596	clock_34.png
+	7596	clock_35.png
+	7615	clock_36.png
+	7650	clock_37.png
+	7650	clock_38.png
+	7621	clock_39.png
+	7581	clock_40.png
+	7609	clock_41.png
+	7630	clock_42.png
+	7618	clock_43.png
+	7617	clock_44.png
+	7617	clock_45.png
+	7590	clock_46.png
+	7571	clock_47.png
+	7562	clock_48.png
+	7578	clock_49.png
+	7600	clock_50.png
+	7595	clock_51.png
+	7613	clock_52.png
+	7622	clock_53.png
+	7618	clock_54.png
+	7616	clock_55.png
+	7584	clock_56.png
+	7615	clock_57.png
+	7645	clock_58.png
+	7623	clock_59.png
+	7643	clock_60.png
+	7593	clock_61.png
+	7589	clock_62.png
+	7598	clock_63.png
+	7553	clockface.png
+	449	clockhand.png
+	4247	music_disc_pigstep.png
+	2875	netherite_axe.png
+	1820	netherite_boots.png
+	2944	netherite_chestplate.png
+	1860	netherite_helmet.png
+	2200	netherite_hoe.png
+	2222	netherite_ingot.png
+	2533	netherite_leggings.png
+	2879	netherite_pickaxe.png
+	3002	netherite_shovel.png
+	29677	netherite_sword.png
+	22	netherite_sword.png.mcmeta
+	3294	soul_lantern.png
+
+
+
+
+
+Change log 1.7 - 1.15.X
+Added & Updated Textures (++ = Added | UP = Updated)
+	\Blocks\
+		- Glass.png				UP	[sp4cemanspliff]
+		- torch.png				UP	[sp4cemanspliff]
+		- wither_rose.png			UP	[sp4cemanspliff]
+		- composter_bottom.png			++	[sp4cemanspliff]
+		- composter_compost.png			++	[sp4cemanspliff]
+		- composter_ready.png			++	[sp4cemanspliff]
+		- composter_side.png			++	[sp4cemanspliff]
+		- composter_top.png			++	[sp4cemanspliff]
+		- stonecutter_bottom.png			++	[sp4cemanspliff]
+		- stonecutter_saw.png			++	[sp4cemanspliff]
+		- stonecutter_saw.png.mcmeta		++	[sp4cemanspliff]
+		- stonecutter_side.png			++	[sp4cemanspliff]
+		- stonecutter_top.png			++	[sp4cemanspliff]
+		- fletching_table_top.png			++	[QwertySpace]
+		- fletching_table_side.png		++	[QwertySpace]
+		- fletching_table_front.png		++	[QwertySpace]
+
+	\gui\container\
+		- stonecutter.png			++	[sp4cemanspliff]
+	\entity\cow\
+		- brown_mooshroom.png			++	[QwertySpace]
+	\entity\chest\	
+		- normapl.png			   	UP	[QwertySpace]
+		- normal_right.png			UP	[QwertySpace]
+		- normal_left.png			UP	[QwertySpace]
+		- trapped.png				UP	[QwertySpace]
+		- trapped_right.png			UP	[QwertySpace]
+		- trapped_left.png			UP	[QwertySpace]
+		- ender.png				UP	[QwertySpace]
+
+Change log 1.6.4 - 1.14.X
+Added & Updated Textures (++ = Added | UP = Updated)
+	\GUI Update\
+		- Recipe_Book.png			UP
+		- Anvil.png				UP
+		- Blast_Furnace.png			UP
+		- Brewing_Stand.png			UP
+		- Crafting_Table.png			UP
+		- Dispenser.png				UP
+		- Enchanting_Table.png			UP
+		- Furnace.png				UP
+		- Generic_54.png				UP
+		- Hopper.png				UP
+		- Horse.png				UP
+		- Inventory.png				UP
+		- Shulker_Box.png			UP
+		- Villager2.png				UP	(incomplete)
+		- Advancements.png			UP
+
+	\Mob Effects\ 
+	were packed in with the gui images, so i separated them and then reworked them.
+		- Absorption.png				UP
+		- Blindness.png				UP
+		- Fire Resistance.png			UP
+		- Haste.png				UP
+		- Hunter.png				UP
+		- Invisibility.png			UP
+		- Jump Boost.png				UP
+		- Levitation.png				UP
+		- Luck.png				UP
+		- Mining Fatigue.png			UP
+		- Nausea.png				UP
+		- Night Vision.png			UP
+		- Poison.png				UP
+		- Regeneration.png			UP
+		- Resistance.png				UP
+		- Slow Falling.png			UP
+		- Slowness.png				UP
+		- Speed.png				UP
+		- Strength.png				UP
+		- Unluck.png				UP
+		- Water Breathing.png			UP
+		- Weakness.png				UP
+		- Wither.png				UP
+
+	\Particles\ 
+	(Most particles were just transferred from the single image they were all in, to multiple images except a few so I'm just going to list the ones i directly changed or created.)
+		
+		- Bubble.png				UP
+		- Damage.png				UP
+		- Effect 0-7 (made a mix of ovo's particle and a remade version of the default)
+		- Heart.png				UP
+		- Lava					UP
+		- Fishing Hook (Technically an entity now, but was in the particle image.)
+
+	\Blocks\
+		-barrel_bottom.png			UP	
+		-barrel_side.png				UP
+		-barrel_top.png				UP
+		-barrel_top_open.png			UP
+		-black_concrete.png			UP	
+		-black_concrete_powder.png		UP
+		-blue_concrete.png			UP
+		-blue_concrete_powder.png			UP
+		-brewing_stand.png			UP
+		-brown_concrete.png			UP
+		-brown_concrete_powder.png		UP
+		-cauldron_bottom.png			UP
+		-cauldron_inner.png			UP
+		-cauldron_side.png			UP
+		-cauldron_top.png			UP
+		-cyan_concrete.png			UP
+		-cyan_concrete_powder.png			UP
+		-glass.png				UP
+		-gray_concrete.png			UP
+		-gray_concrete_powder.png			UP
+		-green_concrete.png			UP
+		-green_concrete_powder.png		UP
+		-hopper_inside.png			UP
+		-hopper_outside.png			UP
+		-hopper_top.png				UP
+		-light_blue_concrete.png			UP
+		-light_blue_concrete_powder.png		UP
+		-light_gray_concrete.png			UP
+		-light_gray_concrete_powder.png		UP
+		-lily_pad.png				UP
+		-lime_concrete.png			UP
+		-lime_concrete_powder.png			UP
+		-magenta_concrete.png			UP
+		-magenta_concrete_powder.png		UP	
+		-oak_trapdoor.png			UP
+		-observer_front.png			UP
+		-orange_concrete.png			UP
+		-orange_concrete_powder.png		UP
+		-pink_concrete.png			UP
+		-pink_concrete_powder.png			UP
+		-purple_concrete.png			UP
+		-purple_concrete_powder.png		UP
+		-red_concrete.png			UP
+		-red_concrete_powder.png			UP
+		-sugar_cane.png				UP
+		-water_flow.png				UP
+		-water_still.png				UP
+		-white_concrete.png			UP
+		-white_concrete_powder.png		UP
+		-wither_rose.png				UP
+		-yellow_concrete.png			UP
+		-yellow_concrete_powder.png		UP
+
+	\Items\
+		- Cod_Bucket.png 			++
+		- empty_armor_slot_boots.png		UP
+		- empty_armor_slot_chestplate.png		UP
+		- empty_armor_slot_helmet.png		UP 
+		- empty_armor_slot_leggings.png		UP
+		- empty_armor_slot_Shield.png		UP
+		- End_Crystal.png 			++
+		- Iron_Nugget.png 			UP
+		- Phantom_Membrane.png 			++
+		- Pufferfish_Bucket.png 			++
+		- Salmon_Bucket.png 			++
+		- Tropical_Fish_Bucket.png 		++
+
+	\Paintings\ (just converted from a singular image to individual images.)
+
+	\Environment\
+		- Rain.png				UP 
+		(slightly edited to make the rain lighter and tried to avoid getting those gutter streams.)
+
+Change log 1.6.3 - 1.14.X
+Added & Updated Textures (++ = Added | UP = Updated)
+	\blocks\
+		- cauldron_inner.png			UP	[Takkantis]
+		- cauldron_side.png			UP	[Takkantis]
+		- cauldron_top.png			UP	[Takkantis]
+		- hopper_inside.png			UP	[Takkantis]
+		- hopper_outside.png			UP	[Takkantis]
+		- hopper_top.png				UP	[Takkantis]
+		- oak_trapdoor.png			UP	[Takkantis]
+		- observer_front.png			UP	[Takkantis]
+		
+	\item\
+		- iron_nugget.png			++	[Takkantis]
+		- written_book.png			UP	[LoardVader]	(removed floating pixles)
+		
+	\Painting\
+		- aztec2.png				++	[Takkantis] 
+		- back.png				++	[Takkantis]
+		- bomb.png				++	[Takkantis]
+		- burning_skull.png			++	[Takkantis]
+		- bust.png				++	[Takkantis]
+		- courbet.png				++	[Takkantis]
+		- creebet.png				++	[Takkantis]
+		- donkey_kong.png			++	[Takkantis]
+		- fighters.png				++	[Takkantis]
+		- graham.png				UP	[Takkantis]
+		- kebab.png				UP	[Takkantis]
+		- match.png				UP	[Takkantis]
+		- paintings_kristoffer_zetterstrand.png	UP	[Takkantis]
+		- pigscene.png				UP	[Takkantis]
+		- plant.png				UP	[Takkantis]
+		- pointer.png				UP	[Takkantis]
+		- pool.png				UP	[Takkantis]
+		- sea.png				UP	[Takkantis]
+		- skeleton.png				UP	[Takkantis]
+		- skull_and_roses.png			UP	[Takkantis]
+		- stage.png				UP	[Takkantis]
+		- sunset.png				UP	[Takkantis]
+		- void.png				UP	[Takkantis]
+		- wanderer.png				UP	[Takkantis]
+		- wasteland.png				UP	[Takkantis]
+		- wither.png				UP	[Takkantis]
+		- alban.png				UP	[Takkantis]
+		- aztec.png				UP	[Takkantis]
+	
+	\entity\shulker\
+		- shulker.png				UP	[LoardVader]	just needed to be renamed from golum.png
+		
+Change log 1.6.2 - 1.14.X
+Added & Updated Textures (++ = Added | UP = Updated)
+	\blocks\
+		- xxx_dye				++/UP	[Takkantis]
+		- observer_back.png			++	[Takkantis]
+		- observer_back_on.png			++	[Takkantis]
+		- observer_front.png			++	[Takkantis]
+		- observer_side.png			++	[Takkantis]
+		- observer_top.png			++	[Takkantis]
+		- birch_trapdoor.png			++	[Takkantis]
+		- oak_trapdoor.png			++	[Takkantis]
+		- dark_oak_trapdoor.png			++	[Takkantis]
+		- jungle_trapdoor.png			++	[Takkantis]
+		- spruce_trapdoor.png			++	[Takkantis]
+		- acacia_trapdoor.png			++	[Takkantis]
+		- jungle_door_top.png			UP	[Takkantis]
+		- acacia_door_bottom.png			UP	[Takkantis]
+		- acacia_door_top.png			UP	[Takkantis]
+		- jungle_door_bottom.png			UP	[Takkantis]
+
+	\entity\boat\
+		-acacia.png				++	[Takkantis]
+		-birch.png				++	[Takkantis] 
+		-dark_oak.png				++	[Takkantis]
+		-jungle.png				++	[Takkantis]
+		-oak.png					++	[Takkantis]
+		-spruce.png				++	[Takkantis]
+	\entity\sign\
+		-acacia.png				++	[grumptumtugger]
+		-birch.png				++	[grumptumtugger]
+		-dark_oak.png				++	[grumptumtugger]
+		-jungle.png				++	[grumptumtugger]
+		-oak.png					UP	[grumptumtugger]
+		-spruce.png				++	[grumptumtugger]
+	\item\
+		-acacia_boat.png				++	[Takkantis]
+		-birch_boat.png				++	[Takkantis]
+		-dark_oak_boat.png			++	[Takkantis]
+		-jungle_boat.png				++	[Takkantis]
+		-oak_boat.png				++	[Takkantis]
+		-spruce_boat				++	[Takkantis]
+
+Changelog 1.6.1 - 1.14.X ~ This update brought to you by Takkantis.
+File name discrepancy fixes:
+
+	- smooth stone / slab block
+	- raw / cooked fish items
+	- lapis lazuli item
+	- cocoa beans item
+	- ink sac item
+	- bone meal item
+	- music disc strad item
+	- compass item
+
+Small Cauldron fix/tweak to block and item
+
+Missing files replaced
+	- Blast furnace Top					[Takkantis]
+	- Chest fix						[Takkantis]
+
+Added & Updated Textures (++ = Added | UP = Updated)
+	-wither_rose						[LoardVader]
+
+Changelog 1.6 - 1.14.X
+Added & Updated Textures (++ = Added | UP = Updated)
+	- barrel_top					++	[Takkantis]
+	- barrel_top_open				++	[Takkantis]
+	- barrel_side					++	[Takkantis]
+	- blast_furnace_top				++	[Takkantis]
+	- blast_furnace_side				++	[Takkantis]
+	- blast_furnace_font				++	[Takkantis]
+	- blast_furnace_front_on				++	[Takkantis]
+	- Stripped_Oak_Log				++	[HystericalFalcon]
+	- Stripped_birch_Log				++	[HystericalFalcon]
+	- Stripped_spruce_Log				++	[HystericalFalcon]
+	- Stripped_jungle_Log				++	[HystericalFalcon]
+	- Stripped_acaiea_Log				++	[HystericalFalcon]
+	- Stripped_dark_oak_Log				++	[HystericalFalcon]
+-Added GUI
+	- Blast_furnace					++	[Takkantis]
+	- Brewing_stand					UP	[Takkantis]
+	- recipe_book					++	[Takkantis]
+	- recipe_book_icon				++	[Takkantis]
+
+
+Changelog 1.5 - 1.13.2
+	- Merged & fixed CTM files
+	- added beds
+	- fixed all the names
+	- etc
+
+
+Changelog 1.4 - 1.10.X
+	Added & Updated Textures (++ = Added | UP = Updated)
+Textures
+	Blocks
+		- nether_wart_block.png			++	[Schlutt]
+		- bone_block_top.png			++	[Schlutt]
+		- bone_block_side.png			++	[Schlutt]
+		- redstone_dust_dot.png			UP	[speedygunner]
+		- redstone_dust_line0.png			UP	[speedygunner]
+		- redstone_dust_line1.png			UP	[speedygunner]
+		- cauldron_side.png			UP	[Takkantis]
+		- cauldron_top.png			UP	[Takkantis]
+		- carrots_stage_0.png			UP	[Serrinatta]
+		- carrots_stage_1.png			UP	[Serrinatta]
+		- carrots_stage_2.png			UP	[Serrinatta]
+		- red_nether_brick.png			++	[Schlutt]
+		
+	Entity
+		Bear
+			polarbear.png			++	[Schlutt]
+			
+		chest
+			normal.png			UP	[Takkantis]
+			trapped_double.png		UP	[Takkantis]
+			trapped.png			UP	[Takkantis]
+			ender.png			UP	[Takkantis]
+			
+		Skeleton
+			stray.png			++	[Schlutt]
+			stray_overlay.png		++	[Schlutt]
+			
+		Zombie_Villager
+			zombie_butcher.png		UP	[Schlutt]
+			zombie_farmer.png		UP	[Schlutt]
+			zombie_librarian.png		UP	[Schlutt]
+			zombie_priest.png		UP	[Schlutt]
+			zombie_smith.png			UP	[Schlutt]
+		
+	Items
+		reeds.png				UP	[Serrinatta]
+		potato_poisonous.png			UP	[Serrinatta]
+		potato_baked.png				UP	[Serrinatta]
+		potato.png				UP	[Serrinatta]
+		carrot.png				UP	[Serrinatta]	
+		carrot_golden.png			UP	[Serrinatta]

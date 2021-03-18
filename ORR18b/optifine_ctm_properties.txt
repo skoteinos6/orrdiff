@@ -1,0 +1,237 @@
+matchBlocks=acacia_planks
+tiles=1-8
+weights=10 10 10 10 10 10 10 10
+method=random
+# Converted from /ctm/terrain7.properties and /ctm/ctm.png
+# Individual tiles are in /ctm/ctm
+#Thu Mar 14 06:21:34 EDT 2013
+tiles=1-4
+method=horizontal
+faces=allmatchTiles=red_mushroom
+tiles=1-4
+method=random
+linked=true
+symmetry=allmatchTiles=spruce_log
+tiles=1-4
+method=horizontalmatchTiles=spruce_log_top
+tiles=5-8
+method=randommatchBlocks=quartz_pillar
+method=vertical
+tiles=1-4
+faces=sidesmatchBlocks=iron_bars
+tiles=1-4
+method=verticalmatchBlocks=spruce_planks
+tiles=0-7
+weights=10 10 10 10 10 10 10 10
+method=random
+matchBlocks=cobblestone
+tiles=1-4
+method=randommatchBlocks=jungle_planks
+tiles=1-8
+weights=10 10 10 10 10 10 10 10
+method=random
+matchBlocks=light_blue_wool
+method=ctm
+tiles=0-46matchBlocks=magenta_wool
+method=ctm
+tiles=0-46matchBlocks=warped_planks
+tiles=1-8
+method=random
+matchTiles=coal_ore
+tiles=1-2
+method=random
+faces=allmatchBlocks=gray_wool
+tiles=0-46
+method=ctmmatchTiles=lily_pad
+tiles=1-10
+method=random
+faces=top bottommatchBlocks=red_sand
+tiles=1-5
+weights=100 1 1 1 1
+faces=top
+method=randommatchBlocks=pink_wool
+method=ctm
+tiles=0-46matchBlocks=mossy_stone_bricks
+tiles=48-59
+method=random
+matchTiles=vine
+tiles=1-4
+method=verticalmatchTiles=grass
+tiles=1-6
+weights=10 10 10 10 10 10
+method=random
+linked=true
+symmetry=all
+matchTiles=crafting_table_top
+faces=top
+tiles=1-4
+method=random
+# Converted from /ctm/terrain214.properties and /ctm/ctm.png
+# Individual tiles are in /ctm/ctm
+#Thu Mar 14 06:21:34 EDT 2013
+tiles=1-8
+Birch=Planls
+weights=20 20 10 10 10 10 10 10
+method=random
+matchBlocks=birch_planks
+tiles=1-8
+weights=20 20 10 10 10 10 10 10
+method=random
+matchTiles=bookshelf
+tiles=1-4
+method=horizontal
+faces=sides
+matchTiles=bookshelf_top
+tiles=5-8
+method=horizontal
+faces=top bottommatchTiles=smooth_stone_slab_side
+tiles=1-4
+method=horizontal
+#matchTiles=birch_log
+#tiles=1-4
+#method=horizontal
+#faces=sides
+matchTiles=tnt_side
+faces=sides
+tiles=1-6
+method=random
+matchBlocks=white_wool
+method=ctm
+tiles=0-46matchBlocks=light_gray_wool
+method=ctm
+tiles=0-46matchBlocks=brown_wool
+method=ctm
+tiles=0-46matchBlocks=mossy_cobblestone
+tiles=5-16
+method=random
+faces=allmatchBlocks=glass
+tiles=0-46
+method=ctm
+matchBlocks=blue_wool
+method=ctm
+tiles=0-46matchBlocks=yellow_wool
+method=ctm
+tiles=0-46matchBlocks=dead_bush
+tiles=1-7
+weights=10 10 10 5 5 5 5
+method=random
+linked=true
+symmetry=allmatchBlocks=oak_planks
+tiles=1-8
+method=random
+matchBlocks=cracked_stone_bricks
+tiles=64-75
+method=randommatchTiles=grass_block_side
+tiles=1-2
+method=random
+faces=sidesmatchBlocks=fern
+tiles=1-4
+method=random
+linked=true
+symmetry=allmatchBlocks=dark_oak_planks
+tiles=1-8
+weights=10 10 10 10 10 10 10 10
+method=random
+matchTiles=poppy
+tiles=1-7
+weights=10 10 10 10 10 10 60
+method=random
+linked=true
+symmetry=all
+matchBlocks=orange_wool
+method=ctm
+tiles=0-46matchTiles=oak_log_top
+tiles=5-8
+method=randommatchTiles=oak_log
+tiles=1-4
+method=horizontalmatchBlocks=green_wool
+tiles=0-46
+method=ctmmatchTiles=farmland_moist
+tiles=64-75 80-91 96-107 112-123
+method=ctm
+faces=top
+connect=block
+matchTiles=farmland
+tiles=0-11 16-27 32-43 48-59
+method=ctm
+faces=top
+connect=block
+matchTiles=crafting_table_front
+faces=sides
+tiles=1-4
+method=random
+matchBlocks=oak_leaves
+tiles=155-159
+weights=10 1 1 1 1
+method=random
+matchBlocks=stone
+tiles=1-4
+weights=10 10 10 10
+faces=all
+method=randommatchBlocks=lime_wool
+method=ctm
+tiles=0-46# Converted from /ctm/terrain52.properties and /ctm/ovosrandom.png
+# Individual tiles are in /ctm/ovosrandom
+#Thu Mar 21 16:51:25 EDT 2013
+#tiles=1-5
+#weights=10 1 1 1 1
+#method=random
+#FIX
+matchTiles=dandelion
+tiles=1-6
+weights=10 10 10 10 10 10 60
+method=random
+linked=true
+symmetry=all
+matchBlock=dirt
+tiles=1-2
+method=random
+matchBlocks=black_wool
+method=ctm
+tiles=0-46matchBlocks=red_wool
+method=ctm
+tiles=0-46matchTiles=brown_mushroom
+tiles=1-4
+method=random
+linked=true
+symmetry=all
+matchBlocks=cyan_wool
+method=ctm
+tiles=0-46matchBlocks=crimson_planks
+tiles=1-8
+method=random
+matchTiles=melon_top
+tiles=1-2
+method=random
+faces=top bottommatchTiles=melon_side
+tiles=3-4
+method=random
+faces=sides
+matchTiles=smooth_stone
+faces=all
+tiles=64-75 80-91 96-107 112-123
+method=ctmmatchTiles=grass_block_top
+tiles=1-16
+weights=500 2 5 2 1 2 3 3 3 3 2 2 2 2 2 2
+method=randommatchTiles=sugar_cane
+tiles=1-4
+method=vertical
+linked=true
+symmetry=allmatchBlocks=chiseled_sandstone
+tiles=1-6
+weights=1 1 1 1 1 1
+method=random
+faces=sidesmatchBlocks=sand
+tiles=1-5
+weights=100 1 1 1 1
+method=random
+faces=top# Converted from /ctm/terrain5.properties and /ctm/ctm.png
+# Individual tiles are in /ctm/ctm
+#Thu Mar 14 06:21:34 EDT 2013
+faces=sides
+Double=HalF Slab
+tiles=1-4
+method=horizontal
+matchBlocks=purple_wool
+method=ctm
+tiles=0-46
